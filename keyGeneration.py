@@ -86,11 +86,11 @@ def generateKeys():
     #take only keys
     key_gen_x = list(xs_d_sorted.keys())
     key_gen_y = list(ys_d_sorted.keys())
- #   key_gen_x256 = list(x_256_d_sorted.keys())
+#   key_gen_x256 = list(x_256_d_sorted.keys())
 
     key_gen_x = np.array(key_gen_x)
     key_gen_y = np.array(key_gen_y)
-  #  key_gen_x256 = np.array(key_gen_x256)
+#  key_gen_x256 = np.array(key_gen_x256)
     saveInFile(key_gen_x,x_2566)
     
     return key_gen_x,x_2566
